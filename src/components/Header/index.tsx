@@ -1,18 +1,5 @@
-import { View, Image } from "react-native";
+import { Profile } from "./Profile";
 
-import logoImg from "@assets/logo.png";
-import Ellipse from "@assets/Ellipse.png";
-
-import { BackButton, Container, Logo, Profile } from "./styles";
-
-export function Header() {
-  return (
-    <Container>
-      <Logo source={logoImg} />
-
-      <BackButton>
-        <Profile source={Ellipse} />
-      </BackButton>
-    </Container>
-  );
-}
+export const Header = {
+  Profile,
+};
