@@ -1,10 +1,10 @@
-import { Text } from "react-native";
-import { Container, Description, Title } from "./styles";
+import { Container, Description, IconUp, Title } from "./styles";
 
 export function Card() {
   return (
     <Container>
-      <Title>90,90%</Title>
+      <IconUp />
+      <Title>90,86%</Title>
       <Description>das refeições dentro da dieta</Description>
     </Container>
   );
