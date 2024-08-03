@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <Container>
       <Header.Profile />
-      <Card />
+      <Card value={"98,08"} description="das refeições dentro da dieta" />
       <Meals>Refeições</Meals>
       <ButtonIcon />
       <DataNow>12.08.22</DataNow>

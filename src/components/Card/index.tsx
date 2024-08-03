@@ -1,11 +1,16 @@
 import { Container, Description, IconUp, Title } from "./styles";
 
-export function Card() {
+type Props = {
+  value: string;
+  description: string;
+};
+
+export function Card({ value, description }: Props) {
   return (
     <Container>
       <IconUp />
-      <Title>90,86%</Title>
-      <Description>das refeições dentro da dieta</Description>
+      <Title>{value}%</Title>
+      <Description>{description}</Description>
     </Container>
   );
 }
