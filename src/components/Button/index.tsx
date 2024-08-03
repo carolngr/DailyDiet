@@ -1,10 +1,14 @@
 import { Container, Title, IconButton } from "./styles";
 
-export function ButtonIcon() {
+type Props = {
+  title: string;
+};
+
+export function ButtonIcon({ title }: Props) {
   return (
     <Container>
       <IconButton />
-      <Title>Nova refeição</Title>
+      <Title>{title}</Title>
     </Container>
   );
 }

@@ -12,7 +12,7 @@ export default function Home() {
       <Header.Profile />
       <Card value={"98,08"} description="das refeições dentro da dieta" />
       <Meals>Refeições</Meals>
-      <ButtonIcon />
+      <ButtonIcon title="Nova refeição" />
       <DataNow>12.08.22</DataNow>
       <GroupCard />
     </Container>
