@@ -14,25 +14,14 @@ Este projeto implementa a tela de detalhes da cesta do e-commerce *orgs*. Nesta 
 As técnicas e tecnologias utilizadas no projeto são:
 
 * [React Native](https://reactnative.dev/) - O React Native é um framework que permite o desenvolvimento de aplicações mobile usando JavaScript e React;
-* [Axios](https://reactnative.dev/) - O Axios é um cliente HTTP baseado em Promises para Browser e NodeJS;
-* [Babel](https://reactnative.dev/) - O Babel é um compilador JavaScript gratuito e de código aberto e transpiler configurável usado no desenvolvimento de aplicações JavaScript;
-* [Expo]([http://www.dropwizard.io/1.0.2/docs/](https://docs.expo.dev/)) - Tecnologia para simplificar o ambiente de desenvolvimento
-* [Zustand]([https://maven.apache.org/](https://zustand-demo.pmnd.rs/)) - Gerenciamento de estado global
-* [Styled-Components](https://rometools.github.io/rome/) - Biblioteca para criação de componentes estilizados utilizando uma abordagem baseada em CSS-in-JS
-* [Zustand]([https://maven.apache.org/](https://zustand-demo.pmnd.rs/)) - Gerenciamento de estado global
-
-- `Expo`: tecnologia para simplificar o ambiente de desenvolvimento
-- `Componentes React Native`: componentes já existentes básicos da tecnologia para compor a tela
-  - `Text`: componente para exibir textos
-  - `View`: container para blocos de componentes
-  - `ScrollView`: container para blocos de componentes com barra de rolagem
-  - `Image`: componente para exibir imagens
-  - `TouchableOpacity`: componente para criar áreas clicáveis
-- `Componentes customizados`: criação e utilização de componentes customizados
-- `Suporte a telas`: não permitir que conteúdos estejam sob a *StatusBar* (barra superior nativa) ou barra de gestos do iPhone
-- `Expo Google Fonts`: suporte a fontes do google via Expo
-- `StyleSheet`: estilização básica de componentes
-- `Dimensions`: captura de dados das dimenções da tela
+* [Expo](https://docs.expo.dev/) - Tecnologia para simplificar o ambiente de desenvolvimento
+* [TypeScript](https://www.typescriptlang.org/) - ### falta aqui ###
+* [react-hook-form](https://react-hook-form.com/) - Biblioteca para gerenciamento de formulários em aplicativos 
+* [Zustand](https://zustand-demo.pmnd.rs/) - Gerenciamento de estado global
+* [Styled-Components](https://styled-components.com/) - Biblioteca para criação de componentes estilizados utilizando uma abordagem baseada em CSS-in-JS
+* [Axios](https://axios-http.com/ptbr/docs/intro) - O Axios é um cliente HTTP baseado em Promises para Browser e NodeJS;
+* [Babel](https://babeljs.io/) - O Babel é um compilador JavaScript gratuito e de código aberto e transpiler configurável usado no desenvolvimento de aplicações JavaScript;
+* [Zustand](https://zustand-demo.pmnd.rs/) - Gerenciamento de estado global
 
 ## 📲 Executando o projeto
 
