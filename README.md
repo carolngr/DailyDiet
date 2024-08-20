@@ -4,9 +4,6 @@
 
 StartStore é uma loja Star Wars", oferecendo uma experiência completa de compra de produtos. Os usuários poderão visualizar uma variedade de itens relacionados a Star Wars, adicionar produtos ao carrinho, ajustar quantidades e remover itens facilmente. A finalização da compra é simples, com a opção de armazenar informações de pagamento na carteira do aplicativo. Além disso, o histórico de compras estará disponível para facilitar o gerenciamento das transações.
 
-
-Este projeto implementa a tela de detalhes da cesta do e-commerce *orgs*. Nesta tela são mostrados dados estáticos do nome da cesta, fazenda, preço e itens da cesta.
-
 <img src="https://user-images.githubusercontent.com/9091491/123982988-e3ccb700-d999-11eb-880e-872881ee8b10.gif" width="350" />
 
 ## 🛠️ Construído com
@@ -17,13 +14,13 @@ As técnicas e tecnologias utilizadas no projeto são:
 * [Expo](https://docs.expo.dev/) - Tecnologia para simplificar o ambiente de desenvolvimento
 * [TypeScript](https://www.typescriptlang.org/) - ### falta aqui ###
 * [react-hook-form](https://react-hook-form.com/) - Biblioteca para gerenciamento de formulários em aplicativos
-* [yup](https://react-hook-form.com/](https://www.npmjs.com/package/yup) - Biblioteca JavaScript que é amplamente utilizada para validação de esquemas de dados em aplicativos JavaScript e TypeScript
+* [yup](https://www.npmjs.com/package/yup) - Biblioteca JavaScript que é amplamente utilizada para validação de esquemas de dados em aplicativos JavaScript e TypeScript
 * [Zustand](https://zustand-demo.pmnd.rs/) - Gerenciamento de estado global
 * [Styled-Components](https://styled-components.com/) - Biblioteca para criação de componentes estilizados utilizando uma abordagem baseada em CSS-in-JS
 * [styled-system](https://github.com/styled-system/styled-system/blob/master/docs/getting-started.md) - Biblioteca para criação de componentes para criar componentes estilizados de maneira eficiente e consistente
 * [Axios](https://axios-http.com/ptbr/docs/intro) - O Axios é um cliente HTTP baseado em Promises para Browser e NodeJS;
 * [Babel](https://babeljs.io/) - O Babel é um compilador JavaScript gratuito e de código aberto e transpiler configurável usado no desenvolvimento de aplicações JavaScript;
-* [Zustand](https://zustand-demo.pmnd.rs/) - Gerenciamento de estado global
+
 
 ## 📲 Executando o projeto
 
@@ -31,7 +28,7 @@ As técnicas e tecnologias utilizadas no projeto são:
 
 Para conseguir seguir este README e rodar o projeto você pode precisar dos seguintes itens:
 - Git para clonar o projeto e acessar as branches. Você pode instalar [aqui](https://git-scm.com/downloads);
-- Node para podermos rodar `expo` e `npm`. Você pode instala-lo [aqui](https://nodejs.org/en/);
+- Node para podermos rodar `expo` e `yarn`. Você pode instala-lo [aqui](https://nodejs.org/en/);
 - Um celular Android ou iOS com o aplicativo Expo instalado, ou então algum simulador Android ou iOS no computador;
 
 Se quiser testar as instalações, rodar os comandos abaixo separadamente deve mostrar as respectivas versões.
@@ -39,12 +36,12 @@ Se quiser testar as instalações, rodar os comandos abaixo separadamente deve m
 ```
 git --version
 node --version
-npm --version
+yarn --version
 ```
 
 Então com o `npm` instalado podemos instalar o `expo` e checar a versão:
 ```
-npm install --global expo-cli
+yarn install --global expo-cli
 expo --version
 ```
 
