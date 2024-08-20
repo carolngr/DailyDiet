@@ -1,10 +1,9 @@
 #imagem
 
-# star-store
+# Star Store
 
 StartStore é uma loja Star Wars", oferecendo uma experiência completa de compra de produtos. Os usuários poderão visualizar uma variedade de itens relacionados a Star Wars, adicionar produtos ao carrinho, ajustar quantidades e remover itens facilmente. A finalização da compra é simples, com a opção de armazenar informações de pagamento na carteira do aplicativo. Além disso, o histórico de compras estará disponível para facilitar o gerenciamento das transações.
 
-<img src="https://user-images.githubusercontent.com/9091491/123982988-e3ccb700-d999-11eb-880e-872881ee8b10.gif" width="350" />
 
 ## 🛠️ Construído com
 
@@ -21,6 +20,15 @@ As técnicas e tecnologias utilizadas no projeto são:
 * [Axios](https://axios-http.com/ptbr/docs/intro) - O Axios é um cliente HTTP baseado em Promises para Browser e NodeJS;
 * [Babel](https://babeljs.io/) - O Babel é um compilador JavaScript gratuito e de código aberto e transpiler configurável usado no desenvolvimento de aplicações JavaScript;
 
+### Design Systems
+  * [Atomic Design](https://atomicdesign.bradfrost.com/chapter-2/) - É uma metodologia focada na construção de interfaces de usuário (UI) de forma sistemática e modular. Ela organiza componentes de UI em uma hierarquia (átomos, moléculas, organismos, templates e páginas), que facilita a criação de interfaces consistentes e escaláveis.
+
+### Design pattern
+* [Composition Pattern](https://refactoring.guru/design-patterns/composite) -  Padrão de design de software que se concentra na composição de objetos para construir sistemas flexíveis e reutilizáveis.
+
+### API
+* [Repositório da api](https://github.com/carolngr/star-store-api) -  Desenvolvida em Node.js e Express para comunicação com o app.  
+
 
 ## 📲 Executando o projeto
 
@@ -30,6 +38,9 @@ Para conseguir seguir este README e rodar o projeto você pode precisar dos segu
 - Git para clonar o projeto e acessar as branches. Você pode instalar [aqui](https://git-scm.com/downloads);
 - Node para podermos rodar `expo` e `yarn`. Você pode instala-lo [aqui](https://nodejs.org/en/);
 - Um celular Android ou iOS com o aplicativo Expo instalado, ou então algum simulador Android ou iOS no computador;
+
+- Conexão com a api: [Repositória da criação da api](https://github.com/carolngr/star-store-api)
+  - usuário de teste: email: startstore@gmail.com senha: lojastartstore
 
 Se quiser testar as instalações, rodar os comandos abaixo separadamente deve mostrar as respectivas versões.
 
