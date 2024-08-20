@@ -65,7 +65,6 @@ Então podemos rodar o projeto:
 yarn start
 ```
 
-Uma guia no navegador irá abrir, geralmente [neste endereço](http://localhost:19002/).
 Caso estiver com o celular, **escaneie o QR code com o aplicativo do Expo** ou a câmera.
 Se seu celular estiver em outra rede diferente do computador, troque a "CONNECTION" para "Tunnel", que o app será transmitido via internet.
 Se tiver um simulador, clique na opção do sistema operacional do seu simulador no menu esquerdo.
