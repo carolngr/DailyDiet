@@ -11,7 +11,7 @@ As técnicas e tecnologias utilizadas no projeto são:
 
 * [React Native](https://reactnative.dev/) - O React Native é um framework que permite o desenvolvimento de aplicações mobile usando JavaScript e React;
 * [Expo](https://docs.expo.dev/) - Tecnologia para simplificar o ambiente de desenvolvimento
-* [TypeScript](https://www.typescriptlang.org/) - ### falta aqui ###
+* [TypeScript](https://www.typescriptlang.org/) - Estende JavaScript adicionando definições de tipo. Novos projetos React Native têm como alvo TypeScript por padrão, mas também oferecem suporte a JavaScript e Flow.
 * [react-hook-form](https://react-hook-form.com/) - Biblioteca para gerenciamento de formulários em aplicativos
 * [yup](https://www.npmjs.com/package/yup) - Biblioteca JavaScript que é amplamente utilizada para validação de esquemas de dados em aplicativos JavaScript e TypeScript
 * [Zustand](https://zustand-demo.pmnd.rs/) - Gerenciamento de estado global
