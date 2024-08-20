@@ -16,9 +16,11 @@ As técnicas e tecnologias utilizadas no projeto são:
 * [React Native](https://reactnative.dev/) - O React Native é um framework que permite o desenvolvimento de aplicações mobile usando JavaScript e React;
 * [Expo](https://docs.expo.dev/) - Tecnologia para simplificar o ambiente de desenvolvimento
 * [TypeScript](https://www.typescriptlang.org/) - ### falta aqui ###
-* [react-hook-form](https://react-hook-form.com/) - Biblioteca para gerenciamento de formulários em aplicativos 
+* [react-hook-form](https://react-hook-form.com/) - Biblioteca para gerenciamento de formulários em aplicativos
+* [yup](https://react-hook-form.com/](https://www.npmjs.com/package/yup) - Biblioteca JavaScript que é amplamente utilizada para validação de esquemas de dados em aplicativos JavaScript e TypeScript
 * [Zustand](https://zustand-demo.pmnd.rs/) - Gerenciamento de estado global
 * [Styled-Components](https://styled-components.com/) - Biblioteca para criação de componentes estilizados utilizando uma abordagem baseada em CSS-in-JS
+* [styled-system](https://github.com/styled-system/styled-system/blob/master/docs/getting-started.md) - Biblioteca para criação de componentes para criar componentes estilizados de maneira eficiente e consistente
 * [Axios](https://axios-http.com/ptbr/docs/intro) - O Axios é um cliente HTTP baseado em Promises para Browser e NodeJS;
 * [Babel](https://babeljs.io/) - O Babel é um compilador JavaScript gratuito e de código aberto e transpiler configurável usado no desenvolvimento de aplicações JavaScript;
 * [Zustand](https://zustand-demo.pmnd.rs/) - Gerenciamento de estado global
@@ -51,19 +53,19 @@ expo --version
 Para ter acesso aos arquivos do projeto você pode clonar usando o seguinte comando:
 
 ```
-git clone https://github.com/alura-cursos/react-native-comecando-do-zero.git
+git clone https://github.com/carolngr/star-store.git
 ```
 
 ### ▶️ Rodando o Projeto
 
 Agora que já tem a pasta do projeto na sua máquina, dentro dela instale as dependências:
 ```
-npm install
+yarn install
 ```
 
 Então podemos rodar o projeto:
 ```
-npm start
+yarn start
 ```
 
 Uma guia no navegador irá abrir, geralmente [neste endereço](http://localhost:19002/).
