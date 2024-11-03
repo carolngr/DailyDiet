@@ -11,6 +11,8 @@ export const Container = styled.View`
   padding-left: 12px;
   padding-right: 16px;
 
+  margin-bottom: 8px;
+
   align-items: center;
 `;
 
@@ -41,4 +43,13 @@ export const Status = styled.View`
   border-width: 1px solid;
   border-color: #f3babd;
   background-color: #f3babd;
+`;
+
+export const DataNow = styled.Text`
+  font-size: ${({ theme }) => theme.FONT_SIZE.LG};
+  color: ${({ theme }) => theme.COLORS.GRAY_1};
+  font-family: ${({ theme }) => theme.FONT_FAMILY.BOLD};
+
+  background-color: #fff;
+  margin: 32px 0 8px;
 `;
