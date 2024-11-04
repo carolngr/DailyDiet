@@ -1,11 +1,16 @@
 import styled from "styled-components/native";
 import { ArrowUpRight } from "phosphor-react-native";
 
-export const Container = styled.View`
+export type IColor = {
+  bgColor: string;
+};
+
+export const Container = styled.View<IColor>`
   align-items: center;
-  background-color: ${({ theme }) => theme.COLORS.GREEN_LIGHT};
+  background-color: ${({ bgColor, theme }) => bgColor || theme.COLORS.WHITE};
   border-radius: 4px;
-  padding: 8px 8px 20px;
+  padding: 16px;
+  margin-bottom: 12px;
 `;
 
 export const Title = styled.Text`

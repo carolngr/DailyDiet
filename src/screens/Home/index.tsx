@@ -10,7 +10,12 @@ export default function Home() {
   return (
     <Container>
       <Header.Profile />
-      <Card value={"98,08"} description="das refeições dentro da dieta" />
+      <Card
+        title={"98,08"}
+        description="das refeições dentro da dieta"
+        bgColor="#E5F0DB"
+        Icon
+      />
       <Meals>Refeições</Meals>
       <ButtonIcon title="Nova refeição" />
       <GroupCard />
